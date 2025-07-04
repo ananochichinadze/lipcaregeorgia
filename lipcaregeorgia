@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LipCare Georgia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffc0cb;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #d63384;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .product {
+      background-color: #ffe4ec;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1em;
+    }
+
+    .product p {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    footer {
+      background-color: #ffc0cb;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .insta-btn {
+      margin-top: 20px;
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="261321c0-6073-44b2-8317-b23465da65f9-removebg-preview" alt="LipCare Logo" class="logo" />
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to LipCare Georgia</h1>
+    <p>Natural, nourishing, and pretty lip care products made with love in Georgia. Your lips deserve the best 💋</p>
+    <a href="https://www.instagram.com/lipcaregeorgia" class="insta-btn" target="_blank">Visit our Instagram</a>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/100x100.png?text=Balm+1" alt="Lip Balm 1" />
+      <h3>Strawberry Balm</h3>
+      <p>Sweet, fruity, and hydrating. A fan favorite!</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/100x100.png?text=Balm+2" alt="Lip Balm 2" />
+      <h3>Coconut Kiss</h3>
+      <p>Infused with natural oils for ultra-soft lips.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/100x100.png?text=Balm+3" alt="Lip Balm 3" />
+      <h3>Rose Tint</h3>
+      <p>Color + care in one balm. Gentle rosy shine.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 LipCare Georgia. All rights reserved.
+  </footer>
+
+</body>
+</html>
